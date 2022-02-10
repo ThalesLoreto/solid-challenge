@@ -1,10 +1,10 @@
 import { v4 as uuidV4 } from "uuid";
 
 class User {
-  id: string;
+  id?: string;
   name: string;
   email: string;
-  admin: boolean;
+  admin?: boolean;
   created_at: Date;
   updated_at: Date;
 
